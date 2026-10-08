@@ -72,6 +72,6 @@ python app.py
 
 ## 👨‍💻 Author
 
-**Muhammad Usman**
+**Muhammad Furqan**
 
 If you find this project useful, feel free to ⭐ star the repository and contribute to its development.
