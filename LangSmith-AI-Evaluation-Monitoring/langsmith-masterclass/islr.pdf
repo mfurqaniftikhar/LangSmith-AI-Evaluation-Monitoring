@@ -1,0 +1,32 @@
+AI Voice Agent + Multi-Channel Follow-up Automation for Healthcare Leads (n8n + Retell AI)
+Just built a $2000 lead automation system for Miami Eye Clinic that combines AI voice calling with WhatsApp and email sequences. Thought I'd share the technical approach since it might help others building similar workflows.
+
+Workflow Overview:
+
+Lead Capture: Meta Lead Ads webhook triggers n8n workflow
+
+Data Processing: Extract and validate lead information, store in GetWeave CRM
+
+AI Voice Call: Retell AI agent calls lead within 2 minutes (HIPAA compliant, bilingual)
+
+Multi-Channel Follow-up: Parallel WhatsApp and email sequences launch
+
+Appointment Booking: AI agent can schedule across 3 locations in real-time
+
+Manual Override: Telegram bot allows staff to manually add leads and trigger calls
+
+Technical Stack:
+
+n8n for workflow orchestration
+
+Retell AI for voice agent (GPT-4 powered)
+
+WhatsApp Business API for messaging
+
+Gmail API for email sequences
+
+GetWeave CRM API for patient management
+
+Telegram Bot API for staff interface
+
+Meta Lead Ads API for lead capt
